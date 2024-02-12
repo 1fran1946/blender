@@ -43,23 +43,23 @@ text-align: center;
 
 <section class="cer">
 Для использования <span class="kof">ray-tracing</span> вам нужно перейти в раздел <span class="kof">Render</span>, найти панель <span class="kof">Shading</span> и активировать функцию "<span class="kof">Ray Tracing</span>" (смотрите предыдущую главу). Теперь вы сможете использовать свойства <span class="kof">ray-tracing</span> на ваших объектах. Пока вы этого не сделаете, разницы между обычным рендером и рендером с <span class="kof">ray-tracing</span> не будет.	
-<img src="img/ris1.PNG" width="480">
+<img src="img/ris1.PNG" width="90%">
 </section>
 
 <section class="cer">
 <h2>Освещение и Тени</h2>
-<img src="img/ris2.PNG" width="480">
+<img src="img/ris2.PNG" width="90%">
  
 Для получения ray-теней от ламп, выберите лампу, которая должна создавать тени (при применении технологии Ray-Tracing все типы ламп могут это делать), в Окне Свойств перейдите в раздел <span class="kof">Lamp</span>, найдите большую кнопку "<span class="kof">Ray Shadow</span>" и нажмите ее.
 Когда вы включите ray-тени, в настройках большинства ламп появится несколько дополнительных параметров. Параметр "<span class="kof">Soft Size</span>" влияет на мягкость границ тени, а параметр "<span class="kof">Samples</span>" на качества тени.
-<img src="img/ris3.PNG" width="480">
+<img src="img/ris3.PNG" width="90%">
 </section>
 
 <section class="cer">
 Также вы увидите две опции с названием "<span class="kof">Adaptive QMC</span>" и "<span class="kof">Constant QMC</span>". Это два способа генерации теней. <span class="kof"></span>Adaptive работает быстрее, в то время как <span class="kof">Constant</span> дает лучшее качество, но требует большего времени для просчета.
 Обычно используются еще несколько настроек при работе с ray-освещением. На панели "<span class="kof">Spot Shape</span>" вы найдете параметры <span class="kof">Spotlight Size</span>, <span class="kof">Spotlight Blend</span> и <span class="kof">Halo Intensity</span>. Все они работают точно так же, как и при использовании традиционной <span class="kof">Shadow Buffer</span> технологии.
- <img src="img/ris4.PNG" width="480">
- <img src="img/ris5.PNG" width="480">
+ <img src="img/ris4.PNG" width="90%">
+ <img src="img/ris5.PNG" width="90%">
 Обратите внимание на тени в иллюстрации выше. Левое изображение было отрендерено с параметром <span class="kof">Samples</span> равным 1 и параметром <span class="kof">Soft</span> равным 0. Правое же со значениями 10 и 1 соответственно.
 </section>
 
@@ -83,12 +83,12 @@ text-align: center;
 <span class="kof">Filter/Fallout/Limit</span> эти параметры управляют эффектами, влияющими га способ прохождения света через объект <br>
 <span class="kof">Fresnel</span> в панели mirror этот параметр контролирует эффект затуманивания отраженных объектов <br>
 <span class="kof">Gloss</span> набор этих параметров контролирует дополнительные эффекты Ray-отражения<br>
-<img src="img/ris6.PNG" width="480"> 
+<img src="img/ris6.PNG" width="90%"> 
 </section>
 
 
 <div class="cer" style="margin-bottom:40px;">
-<img src="img/ris7.PNG" width="480">
+<img src="img/ris7.PNG" width="90%">
  	На изображении слева используется малое значение параметра отражения на полу и большое на голове обезьянки сзади, для получения эффекта хрома. Голова обезьянки на переднем плане и шар имеют высокое значение параметра <span class="kof">Fresnel</span> и <span class="kof">IOR</span> для симуляции стекла и преломления.
 </div>	
 	
